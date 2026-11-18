@@ -1,0 +1,98 @@
+/* Ramith Weerasinghe Kulatunga, November 17, 2026 */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0f1780;
+  margin: 20px;
+}
+
+
+.container {
+  max-width: 700px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+header {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ffa600;
+  margin-bottom: 20px;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 0px;
+  color: #111111;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #0f1780;
+}
+
+input,
+select {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
+  margin: 0;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #1f2eff;
+  color: #ffffff;
+  padding: 12px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 300px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+input:user-valid,
+select:user-valid {
+  background-color: #dff5e1;
+  border-color: #2e8b57;
+}
+
+input:user-invalid,
+select:user-invalid {
+  background-color: #fbdcdc;
+  border-color: #e63946;
+  font-weight: bold;
+}
+
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+  background-color: #fff1d6;
+}
